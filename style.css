@@ -1,0 +1,132 @@
+
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        
+        .parallax {
+            height: 100vh; 
+            background-image: url('image/paralaxbgimage.jpeg'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 58%;
+            left: 32%;
+            transform: translate(-50%, -50%);
+            color: rgb(230, 238, 238);
+            text-align: center;
+            font-size: 40px;
+            padding: 20px;
+            border-radius: 10px; 
+          }
+      
+
+        
+        body {
+            color: rgb(137, 14, 90);
+            background-color: cadetblue;
+        }
+
+        .Header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); 
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: black;
+            color: white;
+            padding: 15px;
+        }
+        h1,li,ul{
+            display: inline;
+        }
+        ul{
+            margin-left: 60%;
+        }
+        li{
+            color: grey;
+            cursor: pointer;
+        }
+        li:hover{
+            color: white;
+        }
+        input{
+            padding: 15px;
+            width: 60%;
+        }
+        .searchbar{
+            padding: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font: 200;
+            text-align: center;
+        }
+        .box{
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            display: inline-block;
+            width: 220px;
+        
+        }
+        .box:hover{
+            color: black;
+            background-color: burlywood;
+            cursor: pointer;
+        }
+        
+        .Products{
+            text-align: center;
+        }
+        .about{
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+        }
+        .contact{
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        .submit{
+            padding-bottom: 1px;
+            color: black;
+            
+        }
+        .centermoving{
+            margin-top: 20px;
+        }
+        .sltfood{
+            padding: 5px;
+            padding-left: 10px;
+            width: 150px;
+        }
